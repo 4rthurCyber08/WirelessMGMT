@@ -81,10 +81,10 @@ __NETWORK ADDRESS: `10.#$34T#.12.0 255.255.255.224`__
 ~~~
 !@CoreBABA
 conf t
- vlan 11
+ vlan 12
   name NOC-GROUP
   exit
- int vlan 11
+ int vlan 12
   description NOC-GROUP
   ip add 10.#$34T#.12.4 255.255.255.224
   ip ospf 1 area 0
